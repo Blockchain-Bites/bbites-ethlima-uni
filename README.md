@@ -18,6 +18,6 @@ Lee Marreros - [Linkedin](https://www.linkedin.com/in/lee-marreros/) - [Twitter]
 
 ## Ejercicios
 
-Ejercicios semana 4
+[Ejercicios semana 4](https://github.com/Blockchain-Bites/bbites-ethlima-uni/tree/main/contracts/class04)
 
-Ejercicios semana 5
+[Ejercicios semana 5](https://github.com/Blockchain-Bites/bbites-ethlima-uni/tree/main/contracts/class05)
