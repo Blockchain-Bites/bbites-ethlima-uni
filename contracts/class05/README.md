@@ -1,10 +1,26 @@
-# WORKSHOP PROGRAMACIÓN BLOCKCHAIN - Blockchain Bites, Ethereum Lima, UNI
+# BLOCKCHAIN BITES - ETHEREUM LIMA - UNI
 
-### Author: [Lee Marreros](https://www.linkedin.com/in/lee-marreros/)
+WORKSHOP DE PROGRAMACIÓN BLOCKCHAIN
 
-# Ejercicios semana 5 - Interactuando con una criptomoneda (ERC20)
+## Ponente
 
-## Leer prerequisito
+Lee Marreros - [Linkedin](https://www.linkedin.com/in/lee-marreros/) - [Twitter](https://twitter.com/LeeMarreros)
+
+## ¡Síguenos! No te pierdas nigún evento
+
+[Discord](https://discord.gg/7hJBfgfpvs)
+
+[LinkedIn](https://www.linkedin.com/company/blockchain-bites-es/)
+
+[MeetUp](https://www.meetup.com/blockchain-bites)
+
+[Twitter](https://twitter.com/bbitesschool)
+
+## Ejercicios semana 5
+
+### Objetivo: Interactuando con una criptomoneda (ERC20)
+
+## Leer prerrequisito
 
 ### Descripción
 
@@ -39,8 +55,6 @@ Si una criptomoneda lleva dieciocho (18) decimales, se diría que su mínima uni
 Por lo general, una gran mayoría de tokens posee dieciocho (18) decimales y es tomado como el valor por defecto. Hay otros tokens como el [USDC](https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48#code) (con una capitalización de mercado de 28,000 millones de USD) que posee seis (6) decimales. 
 
 Es importante tener en cuenta la cantidad de decimales cuando se trata de hacer intercambios de criptomonedas. Ello porque `10^18` de un token puede ser el equivalente de `10^6` de otro token. Para equiparar un token con otro, a uno de ellos se le debe agregar los decimales que hacen la diferencia entre dichos tokens.
-
-## Ejercicio semana 4
 
 ### Set up
 
