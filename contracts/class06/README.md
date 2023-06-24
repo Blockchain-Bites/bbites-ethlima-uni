@@ -35,4 +35,4 @@ Siguiente clase
 
 ### Resumen (mint, transfer, approve, transferFrom)
 
-![Diagramas mint, approve, transfer, transferFrom](https://github.com/Blockchain-Bites/batch-01-bootcamp-theory/assets/3300958/a7c546c1-c6ee-459a-8271-5596f4a23aee)
+![transfer diagram](https://github.com/Blockchain-Bites/bbites-ethlima-uni/assets/3300958/5c2e841a-5c85-465c-82c5-91ff9f70f016)
