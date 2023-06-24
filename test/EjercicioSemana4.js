@@ -13,7 +13,7 @@ describe("Cajero Automatico", function () {
     const otherAccounts = [alice, bob, carl];
 
     const CajeroAutomatico = await ethers.getContractFactory(
-      "EjercicioSemana4"
+      "EjercicioSemana4Sol"
     );
     const cajeroAutomatico = await CajeroAutomatico.deploy();
 
