@@ -10,7 +10,6 @@ var { toBigInt } = require("ethers");
 describe("Cajero Automatico", function () {
   async function deployFixture() {
     const [owner, alice, bob, carl] = await ethers.getSigners();
-    const otherAccounts = [alice, bob, carl];
 
     const Token = await ethers.getContractFactory("TokenEjercicio7");
     const token = await Token.deploy();
@@ -40,7 +39,6 @@ describe("Cajero Automatico", function () {
       alice,
       bob,
       carl,
-      otherAccounts,
     };
   }
 
