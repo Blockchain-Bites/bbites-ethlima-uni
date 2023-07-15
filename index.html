@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+</head>
+
+<body>
+    <div>
+        <button id="connect">Conectar con Metamask</button>
+    </div>
+    </br>
+
+    <h1>SUBASTA INGLESA</h1>
+
+    </br>
+    <div>
+        <label for="createAuction">Crear Subasta</label>
+        <input placeholder="start time" type="number" id="startTimeId" name="startTime">
+        <input placeholder="end time" type="number" id="endTimeId" name="endTime">
+        <button id="createAuctionButton">create</button>
+    </div>
+    </br>
+    <div>
+        <label for="proposeOfferBttn">Proponer Oferta</label>
+        <input placeholder="Auction Id" type="text" id="offerAuctionIdInput" name="proposeOfferBttn">
+        <input placeholder="Offer Amount" type="number" id="offerAmountInput" name="proposeOfferBttn">
+        <button id="proposeOfferBttn">Proponer Oferta</button>
+    </div>
+    </br>
+    <div>
+        <label for="endAuctionBttn">Finalizar Subasta</label>
+        <input placeholder="Auction Id" type="text" id="endAuctionIdInput" name="endAuctionBttn">
+        <button id="endAuctionBttn">Finalizar</button>
+        <div style="color: red;" id="endAuctionError">
+
+        </div>
+    </div>
+    </br>
+    <div>
+        <label for="withdrawOfferBttn">Recuperar Oferta</label>
+        <input placeholder="Auction Id" type="text" id="withdrawOfferInput" name="withdrawOfferBttn">
+        <button id="withdrawOfferBttn">Recuperar</button>
+    </div>
+    </br>
+
+    <div>
+        <button id="activeAuctionBttn">Ver Lista De Subastas Activas</button>
+        <div>
+            <h2>Lista de Subastas Activas:</h2>
+            <div id="liveAuctionsList">
+
+            </div>
+        </div>
+        <button id="pastAuctionBttn">Ver Lista De Subastas pasadas</button>
+        <div>
+            <h2>Lista de Subastas Pasadas:</h2>
+            <div id="pastAuctionsList">
+
+            </div>
+        </div>
+        <div>
+            <h2>Información de subasta:</h2>
+            <label for="consultAuctionBttn">Consultar subasta</label>
+            <input placeholder="Auction Id" type="text" id="consultAuctionInput" name="consultAuctionBttn">
+            <button id="consultAuctionBttn">Recuperar</button>
+            <div id="auctionInfoId">
+
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
