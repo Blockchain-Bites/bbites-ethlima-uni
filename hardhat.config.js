@@ -12,6 +12,13 @@ module.exports = {
       gas: "auto",
       gasPrice: "auto",
     },
+    mumbai: {
+      url: process.env.MUMBAI_TESNET_URL,
+      accounts: [process.env.PRIVATE_KEY || ""],
+      timeout: 0,
+      gas: "auto",
+      gasPrice: "auto",
+    },
   },
   etherscan: {
     apiKey: {
